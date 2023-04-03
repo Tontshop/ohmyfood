@@ -1,0 +1,137 @@
+header img{
+    z-index: -1;
+}
+
+.main {
+    margin-top: -30px!important;
+    z-index: 10!important;
+    background-color: #fff!important;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+
+#entree h2 {
+    padding-left: 13px;
+}
+
+#entree h1{
+    padding: 17px;
+    margin-top: -10px;
+    z-index: 10;
+    background-color: #fff!important;
+}
+
+#entree h2:hover {
+    position: relative;
+    left: 0%;
+    right: 85.45%;
+    top: 100%;
+    bottom: 0%;
+    border-bottom: 3px solid #99E2D0;
+}
+
+#plat h3:hover {
+    position: relative;
+    left: 0%;
+    right: 85.45%;
+    top: 100%;
+    bottom: 0%;
+    border-bottom: 3px solid #99E2D0;
+}
+
+#desserts h4:hover {
+    position: relative;
+    left: 0%;
+    right: 85.45%;
+    top: 100%;
+    bottom: 0%;
+    border-bottom: 3px solid #99E2D0;
+}
+
+#restaurant .shadow p {
+    color: #101010;
+    opacity: 0.8;
+    text-decoration: none !important;
+    padding-left: 10px;
+
+}
+
+#restaurant .shadow i {
+    float: right;
+    position: relative;
+    bottom: 15px;
+    right: 10px;
+}
+
+#restaurant .shadow i.far {
+    z-index: 5;
+    opacity: 1;
+    color: #101010;
+    right: 35px;
+
+}
+
+
+#restaurant .shadow i.far:hover {
+    opacity: 0;
+    z-index: 0;
+
+}
+
+#restaurant .shadow i.fas {
+    opacity: 0;
+    z-index: 0;
+    right: 2px;
+    bottom: 20px;
+}
+
+#restaurant .shadow i.fas:hover {
+    background: linear-gradient(#e76ce7, #a37cfd);
+    -webkit-text-fill-color: transparent;
+    z-index: 5;
+    opacity: 1;
+    -webkit-background-clip: text;
+    animation: apparaitre 100ms;
+}
+
+#restaurant {
+    background-color: #EAEAEA;
+}
+
+#restaurant h2 {
+    padding: 20px 40px 10px;
+}
+
+#restaurant img {
+    object-fit: cover;
+}
+
+button.buttonrounded.button {
+    width: 218px;
+    height: 50px;
+    background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+}
+main p{
+    padding: 5px;
+}
+
+main h3{
+    padding-left: 15px;
+}
+
+main h4{
+    padding-left: 15px;
+}
+
+.prix{
+    float: right;
+    margin-top: -16px;
+}
+
+
+
+
+

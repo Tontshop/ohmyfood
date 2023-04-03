@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import "css/animation";
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    width: 100%;
+    max-width: 100%;
+    font-size: 13px;
+    min-height: 100% !important;
+    color: #333232 !important;
+}
+
+* {
+    font-family: Roboto, Shrikhand, sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo p {
+    font-family: 'Shrikhand';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.back {
+    background-color: #EAEAEA;
+}
+
+header i {
+    padding: 17px;
+}
+
+
+.shadow {
+    box-shadow: 10px 7px 10px 0px rgba(0, 0, 0, 0.35)
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    border: 375px;
+    height: 50px;
+    background-color: #D2D2D2;
+}
+
+input[type="text"] {
+    border: 375px;
+    height: auto;
+    background-color: #D2D2D2;
+}
+
+header h1 {
+    padding-left: 51px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+header h2 {
+    padding-left: 13px;
+    padding-bottom: 28px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.buttonrounded {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 32px;
+
+}
+
+.buttonrounded button {
+    width: 218px;
+    height: 50px;
+    background: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+}
+
+/* class design*/
+
+.align-horiz {
+    display: flex;
+}
+
+/* a rectigfier*/
+main a {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#fonctionnememt h2{
+    padding: 28px;
+}
+
+#fonctionnememt .shadow i{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#fonctionnememt i:hover{
+    color: #9356DC;
+}
+
+
+.choix-bouton {
+
+    padding-bottom: 30px;
+
+}
+
+.choix-bouton button {
+    border-radius: 20px;
+    padding: 10px 5px;
+    background-color: #F6F6F6;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 80%;
+    display: block;
+    margin-bottom: 20px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: left;
+    border: none;
+    height: 70px;
+}
+
+.choix-bouton button span {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #9356DC;
+    color: #F6F6F6;
+    left: -8px;
+    display: inline-block;
+    text-align: center;
+}
+
+.shadow {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    border-radius: 15px;
+    text-decoration: none;
+    width: 335px;
+    height: 251px;
+}
+
+.shadow img {
+    width: 100%;
+    height: 170px;
+    margin: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.shadow h3 {
+    font-weight: 700;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: #101010;
+}
+
+#restaurant .shadow p {
+    color: #101010;
+    opacity: 0.8;
+    text-decoration: none !important;
+    padding-left: 10px;
+
+}
+
+#restaurant .shadow i {
+    float: right;
+    position: relative;
+    bottom: 15px;
+    right: 10px;
+}
+
+#restaurant .shadow i.far {
+    z-index: 5;
+    opacity: 1;
+    color: #101010;
+    right: 35px;
+
+}
+
+#restaurant .shadow i.far:hover {
+    opacity: 0;
+    z-index: 0;
+
+}
+
+#restaurant .shadow i.fas {
+    opacity: 0;
+    z-index: 0;
+    right: 2px;
+    bottom: 20px;
+}
+
+#restaurant .shadow i.fas:hover {
+    background: linear-gradient(#e76ce7, #a37cfd);
+    -webkit-text-fill-color: transparent;
+    z-index: 5;
+    opacity: 1;
+    -webkit-background-clip: text;
+    animation: apparaitre 100ms;
+}
+
+#restaurant {
+    background-color: #EAEAEA;
+}
+
+#restaurant h2 {
+    padding: 20px 40px 10px;
+}
+
+#restaurant img {
+    object-fit: cover;
+}
+
+.fa{
+    font-family: "Font Awesome 5 Free";
+}
+
+footer {
+    background-color: black;
+    padding: 25px;
+    color: #FFFFFF;
+    width: 375px;
+    height: 190px;
+}
+
+.logodown{
+    font-family: 'Shrikhand';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+}
